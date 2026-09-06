@@ -4,6 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Radhika Trader Official</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1844449543595748');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1844449543595748&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -38,21 +57,26 @@
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
     box-shadow: 0 4px 10px rgba(245, 166, 35, 0.35);
-    animation: pulse 2s infinite;
+    animation: pulse 1.6s ease-in-out infinite;
   }
   .btn:hover {
-    transform: translateY(-3px) scale(1.03);
-    box-shadow: 0 8px 18px rgba(245, 166, 35, 0.5);
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 22px rgba(245, 166, 35, 0.6);
     background: linear-gradient(180deg, #ffe066 0%, #ffb02e 100%);
-    animation-play-state: paused;
+    animation: none;
   }
   .btn:active {
-    transform: translateY(0) scale(0.98);
+    transform: translateY(0) scale(0.97);
   }
   @keyframes pulse {
-    0% { box-shadow: 0 4px 10px rgba(245, 166, 35, 0.35); }
-    50% { box-shadow: 0 4px 18px rgba(245, 166, 35, 0.65); }
-    100% { box-shadow: 0 4px 10px rgba(245, 166, 35, 0.35); }
+    0%, 100% {
+      box-shadow: 0 4px 10px rgba(245, 166, 35, 0.35);
+      transform: scale(1);
+    }
+    50% {
+      box-shadow: 0 6px 20px rgba(245, 166, 35, 0.7);
+      transform: scale(1.015);
+    }
   }
   .photo-wrap {
     width: 110px;
