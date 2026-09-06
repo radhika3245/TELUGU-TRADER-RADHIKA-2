@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radhika Trader Official</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+  }
+  .card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 22px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    padding: 28px 22px 22px;
+    text-align: center;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    background: linear-gradient(180deg, #ffd23f 0%, #f5a623 100%);
+    color: #4a2e00;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 14px 10px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .photo-wrap {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #ffcc33;
+    margin: 26px auto 18px;
+    overflow: hidden;
+  }
+  .photo-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .name {
+    font-size: 19px;
+    font-weight: 800;
+    color: #f5a623;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .feature {
+    background: #fdf6d8;
+    border-radius: 10px;
+    padding: 13px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 12px;
+  }
+  .join-bottom {
+    margin-top: 8px;
+    margin-bottom: 14px;
+  }
+  .counter {
+    font-size: 15px;
+    font-weight: 700;
+    color: #222;
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <a href="https://t.me/YOUR_CHANNEL_LINK" class="btn">JOIN TELEGRAM CHANNEL</a>
+
+  <div class="photo-wrap">
+    <img src="photo.png" alt="Radhika Trader">
+  </div>
+
+  <div class="name">👑 RADHIKA TRADER OFFICIAL 👑</div>
+
+  <div class="feature">Learn New Skills ✅📊</div>
+  <div class="feature">🤝 INTRA DAY OPTION TRADERS 📊 ⚡</div>
+  <div class="feature">📈 14 Years Experience in Share Market 📈</div>
+
+  <a href="https://t.me/YOUR_CHANNEL_LINK" class="btn join-bottom">JOIN TELEGRAM CHANNEL</a>
+
+  <div class="counter" id="counter">7</div>
+</div>
+
+<script>
+  // simple visit counter simulation (increments each load, stored in memory only)
+  let count = 7;
+  document.getElementById('counter').textContent = count;
+</script>
+
+</body>
+</html>
